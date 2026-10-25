@@ -1,0 +1,9 @@
+# 运行时产物，不入库
+.venv/
+models/
+clip.pcm
+clip.wav
+test-*.wav
+test-*.pcm
+__pycache__/
+.DS_Store
