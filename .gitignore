@@ -1,9 +1,23 @@
 # 运行时产物，不入库
-.venv/
+.venv*/
 models/
+recordings/
+runtime/
+.cache/
+.env
+.env.*
+*.log
+*.pcm
+*.ready
+*.ready.tmp
+*.trace/
+*.ktrace
+*.safetensors
+*.onnx
 clip.pcm
 clip.wav
 test-*.wav
 test-*.pcm
 __pycache__/
+*.py[cod]
 .DS_Store

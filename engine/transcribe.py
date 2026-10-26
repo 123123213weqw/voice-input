@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """语音输入引擎：把 16k 单声道 s16le 裸 PCM 转成文字（SenseVoice-Small int8）"""
 import sys
+from pathlib import Path
 import numpy as np
 import sherpa_onnx
 
-MODEL_DIR = "/Users/wangyue/voice-input/models/sense-voice"
+MODEL_DIR = Path(__file__).resolve().parent / "models" / "sense-voice"
 
 def main():
     path = sys.argv[1]
